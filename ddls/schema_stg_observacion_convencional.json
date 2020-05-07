@@ -1,0 +1,230 @@
+{
+  "creationTime": "1588600230554",
+  "etag": "hmaIevBj6pliJj6TfchMrQ==",
+  "id": "[PROJECT ID]:aemet.stg_observacion_convencional",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1588608342873",
+  "location": "EU",
+  "numBytes": "2448123",
+  "numLongTermBytes": "0",
+  "numRows": "17522",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "geo700",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "geo925",
+        "type": "FLOAT"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "present",
+            "type": "BOOLEAN"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "FLOAT"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "geo850",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "stdvvu",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "vvu",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "dvu",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "vmaxu",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "psoltp",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tss5cm",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tss20cm",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lat",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "inso",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tpr",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tamax",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ta",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "pacutp",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "rviento",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "pres_nmar",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "dmax",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "vis",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "stdvv",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "hr",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "stddvu",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ubi",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "pliqt",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "stddv",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tamin",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "dv",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "idema",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "prec",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "vv",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "vmax",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nieve",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "alt",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "pres",
+        "type": "FLOAT"
+      },
+      {
+        "description": "bq-datetime",
+        "mode": "NULLABLE",
+        "name": "fint",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "dmaxu",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ts",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lon",
+        "type": "FLOAT"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/celia-ml/datasets/aemet/tables/stg_observacion_convencional",
+  "tableReference": {
+    "datasetId": "aemet",
+    "projectId": "[PROJECT ID]",
+    "tableId": "stg_observacion_convencional"
+  },
+  "type": "TABLE"
+}
