@@ -9,4 +9,4 @@ Tables to upload data to BigQuery must be created upfront as shown in directory 
 Data is transformed to make it easy to use for reporting, calculate distances, and represent it in Data Studio (adding Google Maps representation) and BigQuery Geo Viz.
 
 
-https://celiamuriel.blogspot.com/2020/05/meteorological-data-to-bigquery.html
+https://celiamuriel.com/retrieve-meteorological-information-from-aemet-and-load-it-into-bigquery/
